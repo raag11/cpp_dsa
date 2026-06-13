@@ -1,9 +1,9 @@
 #include <iostream>
 
-// Using unsigned long long to handle larger factorial results
+ 
 unsigned long long getFactorialIterative(int n) {
     if (n < 0) {
-        return 0; // Factorial for negative numbers is not defined
+        return 0; 
     }
     
     unsigned long long factorial = 1;
